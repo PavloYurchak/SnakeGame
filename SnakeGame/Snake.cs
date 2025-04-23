@@ -5,9 +5,9 @@
         public List<Point> Body { get; private set; }
         private Direction _direction;
 
-        public Snake(int startX, int stractY)
+        public Snake(int startX, int startY)
         {
-            Body = new List<Point> { new Point(startX, stractY) };
+            Body = new List<Point> { new Point(startX, startY) };
             _direction = Direction.Right; // Start moving to the right
         }
 

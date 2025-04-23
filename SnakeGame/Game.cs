@@ -51,7 +51,7 @@
                 }
 
                 Render();
-                Thread.Sleep(250);
+                Thread.Sleep(200);
             }
         }
 
